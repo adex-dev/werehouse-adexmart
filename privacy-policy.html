@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kebijakan Privasi - Adex Mart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+      line-height: 1.7;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #222;
+    }
+    .lang-switch {
+      margin-bottom: 20px;
+      text-align: right;
+    }
+    .lang-switch button {
+      padding: 6px 12px;
+      margin-left: 5px;
+      border: none;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .lang-switch button:hover {
+      background: #45a049;
+    }
+    .section {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #777;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="lang-switch">
+    <button onclick="showLang('id')">Bahasa Indonesia</button>
+    <button onclick="showLang('en')">English</button>
+  </div>
+
+  <!-- Bahasa Indonesia -->
+  <div id="id" class="section">
+    <h1>Kebijakan Privasi</h1>
+    <h2>Adex Mart – POS & Inventory</h2>
+    <p><strong>Terakhir diperbarui:</strong> 15 September 2025</p>
+
+    <h3>📌 Informasi Umum</h3>
+    <p>Adex Mart menghargai privasi Anda. Aplikasi ini dikembangkan secara perorangan dan bertujuan membantu pengguna dalam mengelola penjualan dan persediaan barang secara sederhana.</p>
+
+    <h3>🔐 Informasi yang Dikumpulkan</h3>
+    <ul>
+      <li>Aplikasi tidak mengumpulkan data pribadi pengguna seperti nama, email, atau lokasi.</li>
+      <li>Semua data (produk, supplier, pembelian, penjualan, hutang, investasi) disimpan secara lokal di perangkat Anda.</li>
+      <li>Tidak ada proses login atau akun yang dibuat.</li>
+    </ul>
+
+    <h3>📁 Data yang Dikelola Aplikasi</h3>
+    <ul>
+      <li>Daftar produk berdasarkan harga supplier</li>
+      <li>Daftar supplier</li>
+      <li>Daftar unit barang (pcs, karton, dll)</li>
+      <li>Purchase (estimasi pengeluaran)</li>
+      <li>Investment (catatan modal)</li>
+      <li>Hutang (catatan hutang pelanggan)</li>
+      <li>Donasi sukarela</li>
+      <li>Penjualan (sell product): mini POS, stok, margin, kalkulator</li>
+    </ul>
+
+    <h3>💖 Donasi</h3>
+    <p>Fitur donasi bersifat sukarela, hanya untuk mendukung pengembangan aplikasi dan biaya server. Tidak ada kewajiban untuk membayar agar dapat menggunakan aplikasi.</p>
+
+    <h3>📱 Izin Aplikasi</h3>
+    <p>Aplikasi ini tidak meminta izin sensitif seperti lokasi, kontak, atau mikrofon.</p>
+
+    <h3>⚖️ Perubahan Kebijakan</h3>
+    <p>Kebijakan ini dapat diperbarui sewaktu-waktu. Versi terbaru akan selalu tersedia di halaman ini.</p>
+
+    <h3>📧 Kontak Developer</h3>
+    <p>
+      Nama Developer: <strong>Akmad Nudin</strong><br>
+      Email: <strong>mkt.adexmart@gmail.com</strong><br>
+      Negara: <strong>Indonesia</strong>
+    </p>
+  </div>
+
+  <!-- English -->
+  <div id="en" class="section" style="display:none;">
+    <h1>Privacy Policy</h1>
+    <h2>Adex Mart – POS & Inventory</h2>
+    <p><strong>Last updated:</strong> September 15, 2025</p>
+
+    <h3>📌 General Information</h3>
+    <p>Adex Mart respects your privacy. This app is developed individually and is designed to help users manage sales and inventory in a simple way.</p>
+
+    <h3>🔐 Information Collected</h3>
+    <ul>
+      <li>The app does not collect personal information such as name, email, or location.</li>
+      <li>All data (products, suppliers, purchases, sales, debts, investments) is stored locally on your device.</li>
+      <li>No account creation or login is required.</li>
+    </ul>
+
+    <h3>📁 Data Managed by the App</h3>
+    <ul>
+      <li>Product list with supplier-specific prices</li>
+      <li>Supplier list</li>
+      <li>Unit list (pcs, carton, etc.)</li>
+      <li>Purchase (planned stock spending)</li>
+      <li>Investment (capital records)</li>
+      <li>Debt (customer debts)</li>
+      <li>Voluntary donations</li>
+      <li>Sell product: mini POS, stock, margin, calculator</li>
+    </ul>
+
+    <h3>💖 Donations</h3>
+    <p>Donations are optional and only to support app development and server costs. You are not required to pay to use this app.</p>
+
+    <h3>📱 App Permissions</h3>
+    <p>This app does not request sensitive permissions such as location, contacts, or microphone.</p>
+
+    <h3>⚖️ Policy Changes</h3>
+    <p>This policy may be updated from time to time. The latest version will always be available on this page.</p>
+
+    <h3>📧 Developer Contact</h3>
+    <p>
+      Developer Name: <strong>Akmad Nudin</strong><br>
+      Email: <strong>mkt.adexmart@gmail.com</strong><br>
+      Country: <strong>Indonesia</strong>
+    </p>
+  </div>
+
+  <footer>© 2025 Adex Mart – POS & Inventory</footer>
+
+  <script>
+    function showLang(lang) {
+      document.getElementById('id').style.display = (lang === 'id') ? 'block' : 'none';
+      document.getElementById('en').style.display = (lang === 'en') ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>
